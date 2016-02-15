@@ -71,3 +71,5 @@ def make(sup = 49, scalex = [1, 2, 4], norient = 6):
     
     F[:, :, nbar + nedge] = normalise(((1.0 / numpy.sqrt(2 * numpy.pi * sigma**2)) * numpy.exp(-r / (2 * sigma**2))).reshape(sup, sup))
     F[:, :, nbar + nedge + 1] = normalise(((r - 2 * sigma**2) / (sigma ** 4) * numpy.exp(-r / (2 * sigma**2))).reshape(sup, sup))
+
+    return F
