@@ -1,0 +1,1 @@
+This is a questionable Python port of the RFS texton filter bank described here: http://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html and implemented here: http://www.robots.ox.ac.uk/~vgg/research/texclass/code/makeRFSfilters.m
